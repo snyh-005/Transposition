@@ -34,8 +34,14 @@ Sample output for transposing to -3 semitones:
 Solution:
 
 Http Method: POST
+
 Endpoint: /api/music/transpose
+
 Request:
+
 @RequestBody List<Note> notes,
+
 @RequestParam int semitones
+
+
 Response:List<Note>
